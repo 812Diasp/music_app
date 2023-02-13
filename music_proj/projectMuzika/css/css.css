@@ -1,0 +1,201 @@
+#plusIcon{
+    margin: 20px;
+    padding: 4px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: bold;
+    background: rgb(102,95,224);
+    background: linear-gradient(90deg, rgba(102,95,224,1) 0%, rgba(230,29,93,1) 56%, rgba(232,203,35,1) 100%);
+    border-radius: 20px;
+}
+
+#plusImg{
+    padding: 3px;
+    font-size: 15px;
+    background: rgb(102,95,224);
+    background: linear-gradient(90deg, rgba(102,95,224,1) 0%, rgba(230,29,93,1) 56%, rgba(232,203,35,1) 100%);
+    border-radius: 10px;
+}
+.explicit{
+    background-image: url("//expicit-icon.svg");
+}
+.fa-e{
+    background-color: #a9a1a1;
+}
+.song-elem .fa-solid{
+    width: 5%;
+    height: 40px;
+    margin-right: 20px;
+    transition: 1s;
+
+}
+
+ul .nav-link{
+    display: flex;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-link{
+    color: black;
+}
+
+
+
+
+
+
+
+
+.album-card{
+    width: 265px;
+    margin-left: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.album-card img{
+    width: 265px;
+    height: 265px;
+}
+
+.album-card:hover{
+   outline: 10px solid #efd20c;
+    transition:  0.3s;
+}
+.card-text{
+
+}
+.album-card a { display: block; position: relative; }
+
+.album-card a:after { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.5);  opacity: 0; }
+
+.album-card a:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url(...); opacity: 0; }
+
+.album-card a:hover:before,
+.album-card a:hover:after { opacity: 1; }
+
+
+footer{
+    margin-top: 500px;
+}
+.head-text{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.main-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.music-type{
+    margin: 30px;
+}
+.footer-nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.footer-nav a{
+    font-size: 20px;
+}
+.footer-nav a{
+    margin-left: 40px;
+}
+
+
+
+.type-album{
+    opacity: 50%;
+    user-select: text;
+}
+
+.album-info{
+    width: 265px;
+    margin: 30px;
+    transition: 0.3s;
+}
+.album-describe{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.liked{
+color: red;
+}
+.songs{
+
+}
+.song-elem{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    outline: 1px solid black;
+
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.song-elem:hover{
+    outline: 3px solid #000000;
+
+}
+.artist{
+    opacity: 65%;
+    width: 150px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid crimson;
+}
+.artist:hover{
+    opacity: 100%;
+    color: red;
+}
+.presentation-artist{
+    opacity: 65%;
+    font-size: 18px;
+}
+.presentation-artist:hover{
+    opacity: 100%;
+    color: red;
+}
+.explicit-img{
+    width: 32px;
+    height: 32px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+.timeTrack{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.progress{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40%;
+    height: 40px;
+}
+.trackInfos{
+    display: flex;
+
+}
+.songName{
+    width: 15%;
+    margin-left: 5px;
+}
+
